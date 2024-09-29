@@ -1,0 +1,24 @@
+header {
+    .menu-color{
+        background-color: $color-secundario;
+    
+    } 
+    h1 {
+        font-size: nth($font ,5);
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.808);
+    }
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                margin-right: 20px;
+                a {
+                    text-decoration: none;
+                    color: white
+                }
+            }
+        }
+    }
+}

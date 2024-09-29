@@ -1,0 +1,32 @@
+footer {
+    background-color: $color-principal;
+
+    padding: 40px;
+    h2{
+        color: $color-secundario;
+        font-size: nth($font ,6);
+
+    }
+    div a img{
+        width: 60px;
+        height: 50px;
+    } 
+    
+    .footer-contenedor{
+        @include flex(flex,space-around,center);
+    }
+    
+    .footer-reportar{
+        text-align: center;
+        
+    }
+    
+    .footer-terminos{
+        text-align: center;
+        
+    }
+    .footer-espanol{
+        text-align: center;
+        
+    } 
+}
